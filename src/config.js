@@ -4,7 +4,7 @@ const AWS = require('aws-sdk');
 
 module.exports = function get_config(environment) {
 	return new Promise(function (res, reject){
-	const kms = new AWS.KMS({'region': 'us-east-1'});
+	const kms = new AWS.KMS({'region': 'us-east-2'});
 
 	const params = {
 	  CiphertextBlob: fs.readFileSync(environment + "_config_encrypted.txt")

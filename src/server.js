@@ -3,7 +3,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const nodeauth = require("nodeauth");
 
-const Bib = require("./bib.js")
+const Bib = require("./Bib.js")
 const BibError = require("./BibError.js")
 
 const isLambda = !!(process.env.LAMBDA_TASK_ROOT || false);

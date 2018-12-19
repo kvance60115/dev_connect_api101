@@ -2,6 +2,8 @@ const expect = require('chai').expect;
 const nock = require('nock');
 const moxios = require('moxios');
 const fs = require('fs');
+var http = require('http');
+
 const yaml = require('js-yaml');
 const get_config = require("../src/config.js");
 

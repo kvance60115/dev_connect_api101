@@ -11,7 +11,7 @@ const bib_response = fs.readFileSync(require('path').resolve(__dirname, './mocks
 describe('Create Bib test', () => {
 	var bib;
 	  before(() => {
-			let doc = new dom().parseFromString(bib_response);
+			 let doc = new dom().parseFromString(bib_response);
 			select = xpath.useNamespaces({"atom": "http://www.w3.org/2005/Atom", "rb": "http://worldcat.org/rb"});
 			let record = select('//atom:content/rb:response', doc)
   			marc4js.parse(record, {fromFormat: 'marcxml'}, function(err, records) {

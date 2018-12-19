@@ -1,6 +1,6 @@
 sudo: required
 language: node_js
-node_js: "8"
+node_js: "10"
 
 cache:
   directories:
@@ -22,6 +22,6 @@ script:
 notifications:
     email:
         recipients:
-        - coombsk@oclc.org
+        - kendall@vancenet.net
         on_success: always
         on_failure: always
