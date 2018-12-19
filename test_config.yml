@@ -1,6 +1,6 @@
-wskey: test
-secret: key
-principalID: ID 
-principalIDNS: namespace
+wskey:  2hbaRPRhVd8mGfwUsQbLfS1mS9I2e9Wk866WCo8f57kxCvkIZhxjq1Gg056RqKRIBz4cxdn0N8yumxaL
+secret: knTGl72a/sedZH1actxQiyzGwFz2wF1K 
+principalID: 8eaa9f92-3951-431c-975a-d7df26b8d131 
+principalIDNS: urn:oclc:wms:da
 institution: 128807    
     

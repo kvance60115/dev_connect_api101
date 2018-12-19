@@ -1,7 +1,7 @@
 const awsServerlessExpress = require('aws-serverless-express');
 const yaml = require('js-yaml');
 const get_config = require("./src/config.js");
-let environment = 'prod';
+let environment = 'prod' // 'test'  'prod'
 
 global.config = "";
 
