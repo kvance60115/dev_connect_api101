@@ -1,6 +1,5 @@
 /node_modules/
 /.project
 /config.yml
-/prod_config_encrypted.txt
 .serverless
 /temp/
